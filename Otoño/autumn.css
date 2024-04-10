@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fedcc1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  color: #6d6875;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #6d6875;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #6d6875;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #ff857b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f26c4f;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  color: #6d6875;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: #d9bf9c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+#shape {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ff857b;
+}
+
+.horizontal-rectangle {
+  width: 150px;
+  height: 100px;
+  background-color: #ff857b;
+}
+
+.vertical-rectangle {
+  width: 100px;
+  height: 150px;
+  background-color: #ff857b;
+}

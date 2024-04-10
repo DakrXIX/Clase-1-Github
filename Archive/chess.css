@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  background-image: url("https://c1.wallpaperflare.com/preview/714/489/198/chess-chess-board-game-board-flag.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 1px solid black;
+}
+
+.square {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.green {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle.yellow {
+  background-color: yellow;
+  background-image: url("Fotos/black_king.png");
+  background-size: cover;
+}
+
+.square.green {
+  background-color: green;
+  background-image: url("Fotos/White_King.png");
+  background-size: cover;
+}

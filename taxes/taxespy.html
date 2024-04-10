@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tax Checker</title>
+    <link rel="stylesheet" href="stylepy.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tax Checker</h1>
+      <form action="/check_tax" method="post" class="form-container">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" />
+        <label for="income">Monthly Income (€):</label>
+        <input type="number" id="income" name="income" />
+        <button type="submit">Check</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white; /* Cambiamos el color del texto a blanco */
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #666;
+}
+
+#welcome {
+  background-image: url("Pacial_foto.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+#welcome h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#welcome p {
+  color: white;
+}
